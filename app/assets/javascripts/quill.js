@@ -15437,6 +15437,7 @@ Quill = (function(_super) {
   Quill.DEFAULTS = {
     formats: ['align', 'bold', 'italic', 'strike', 'underline', 'color', 'background', 'font', 'size', 'link', 'image', 'bullet', 'list'],
     modules: {
+      'image-tooltip': true,
       'keyboard': true,
       'paste-manager': true,
       'undo-manager': true
